@@ -1,0 +1,29 @@
+[package]
+name = "sa-is"
+description = "The SA-IS algorithm for suffix array construction."
+authors = ["Oguz Bilgener <oguz@bilgener.me>"]
+license = "MIT"
+publish = true
+repository = "https://github.com/oguzbilgener/sa-is"
+version = "0.1.0"
+edition = "2021"
+keywords = ["suffix_array", "suffix", "sais", "binary"]
+categories = ["algorithms", "data-structures"]
+readme = "README.md"
+license-file = "LICENSE"
+
+[dependencies]
+bitvec = "^1.0"
+num-traits = "^0.2"
+
+[dev-dependencies]
+rstest = "0.24.0"
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
+
+[lints.clippy]
+pedantic = "warn"
+cargo = "warn"
+all = "warn"
