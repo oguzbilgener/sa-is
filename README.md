@@ -1,5 +1,6 @@
 # sa-is
 
+[![CI](https://github.com/oguzbilgener/sa-is/actions/workflows/ci.yml/badge.svg)](https://github.com/oguzbilgener/sa-is/actions/workflows/ci.yml)
 ![Crates.io Version](https://img.shields.io/crates/v/sa-is)
 ![Crates.io License](https://img.shields.io/crates/l/sa-is)
 
