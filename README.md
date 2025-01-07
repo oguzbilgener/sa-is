@@ -1,5 +1,8 @@
 # sa-is
 
+![Crates.io Version](https://img.shields.io/crates/v/sa-is)
+![Crates.io License](https://img.shields.io/crates/l/sa-is)
+
 Suffix Array Induced Sorting (SA-IS) algorithm based on the paper ["Linear Suffix Array Construction by Almost Pure Induced-Sorting"](https://code.google.com/archive/p/ge-nong/downloads) by G. Nong, S. Zhang and W. H. Chan and [the C++ implementation](https://github.com/chromium/chromium/blob/main/components/zucchini/suffix_array.h) in Chromium.
 
 ## Usage
