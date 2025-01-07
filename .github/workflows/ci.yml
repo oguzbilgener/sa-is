@@ -40,7 +40,7 @@ jobs:
         with:
           toolchain: ${{ matrix.rust-version }}
       - name: Run unit tests
-        run: cargo test --no-capture
+        run: cargo test -- --nocapture
         shell: bash
 
   required:
